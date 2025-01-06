@@ -1,56 +1,56 @@
 @-moz-document domain("kwork.ru") {
 /* MAIN */
-
-h1, h2, h3, h4, span, .send-request__block-title, p{
+h1, h2, h3, h4, span, .send-request__block-title, p {
 	color: #ddd;
 }
 
-body{
+body {
 	background: #111;
 	color: #fff;
 }
 
-.subnav, .header{
+.subnav, .header {
 	background: #222;
 	border-color: #333 !important;
 }
 
-.card{
+.card {
 	background: #222;
 	color: #ddd;
 	border: none;
 	border-radius: 10px;
 }
 
-.query-card__footer{
+.query-card__footer {
 	border-color: #333;
 }
-.wants-card__header-title, .wants-card__header-title a{
+
+.wants-card__header-title, .wants-card__header-title a {
 	color: #0b0;
 }
 
-a, a.color-text:hover{
+a, a.color-text:hover, .all_page.page-conversation #app .conversation-messages-list a {
 	color: #3b9cff;
 }
 
-div.offer-individual__full-container{
+div.offer-individual__full-container {
 	border: none;
 }
 
-.white-bg-border{
+.white-bg-border {
 	background: #222;
 	color: #bbb;
 	border: none;
 	border-radius: 10px 10px 0 0;
 }
 
-div.offer-individual__bottom-block{
+div.offer-individual__bottom-block {
 	background: #222;
 	border-radius: 0 0 10px 10px;
 	border: none;
 }
 
-.input, .chosen-container-single .chosen-single{
+.input, .chosen-container-single .chosen-single {
 	background: #111;
 	color: #eee;
 	border-color: transparent;
@@ -58,567 +58,895 @@ div.offer-individual__bottom-block{
 }
 
 
-.chosen-container-single .chosen-single span{
+.chosen-container-single .chosen-single span {
 	color: #fff !important;
 }
 
-.chosen-container .chosen-drop, .chosen-container-active.chosen-with-drop .chosen-single{
+.chosen-container .chosen-drop, .chosen-container-active.chosen-with-drop .chosen-single {
 	background: #222;
 	border-color: #333;
 }
 
-.chosen-container .chosen-results{
+.chosen-container .chosen-results {
 	color: #ccc;
 }
 
 .form-item__error, .offer-individual__item-error {
-    color: #ff9393;
+	color: #ff9393;
 }
 
-.mw-100{
+/* .mw-100 {
 	filter: invert(0.6);
-}
+} */
 
-.bgWhite{
+.bgWhite {
 	background: #222 !important;
 }
 
-.modal-design .modal-content, .modal-design .modal-header{
+.modal-design .modal-content, .modal-design .modal-header {
 	background: #333;
 	color: #ddd;
 }
 
-.modal-design .modal-header .close{
+.modal-design .modal-header .close {
 	filter: invert(1);
 }
 
-.modal-design .modal-body, .commission-modal__table, .commission-modal .offer-faq-content p, .commission-modal .offer-faq-list li{
+.modal-design .modal-body, .commission-modal__table, .commission-modal .offer-faq-content p, .commission-modal .offer-faq-list li {
 	color: #ddd;
 }
 
-.commission-modal__top-title, .modal-design .modal-header h5,.commission-modal .offer-faq-header, .commission-modal__table thead td, .commission-modal__table thead th{
+.commission-modal__top-title, .modal-design .modal-header h5, .commission-modal .offer-faq-header, .commission-modal__table thead td, .commission-modal__table thead th {
 	color: #fff;
 }
 
-.commission-modal__top-text{
+.commission-modal__top-text {
 	color: #aaa;
 }
 
-.commission-modal__table td, .commission-modal__table th, .commission-modal__table, .commission-modal .offer-faq-item{
+.commission-modal__table td, .commission-modal__table th, .commission-modal__table, .commission-modal .offer-faq-item {
 	border-color: #555;
 }
 
-.commission-modal__table tr.disabled td{
+.commission-modal__table tr.disabled td {
 	background: transparent;
 }
 
-.commission-modal .offer-faq-title{
+.commission-modal .offer-faq-title {
 	color: #2477ff;
 }
 
-.preloader__bg{
+.preloader__bg {
 	background: #0004
 }
 
-.tooltipster-sidetip.tooltipster-light .tooltipster-content, .block-state-active_tooltip, .settings-finances__purse-inner-tooltip, .vue-tooltip-theme.tooltip .tooltip-inner{
+.tooltipster-sidetip.tooltipster-light .tooltipster-content, .block-state-active_tooltip, .settings-finances__purse-inner-tooltip, .vue-tooltip-theme.tooltip .tooltip-inner {
 	background: #333;
 	color: #ccc;
 	border-radius: 10px;
 	border: none;
 }
 
-.tooltipster-sidetip.tooltipster-light .tooltipster-box{
+.tooltipster-sidetip.tooltipster-light .tooltipster-box {
 	border: none;
 	background: none;
 }
 
-.tooltipster-sidetip.tooltipster-light.tooltipster-bottom .tooltipster-arrow-background, .vue-tooltip-theme.tooltip[x-placement^=bottom] .tooltip-arrow{
+.tooltipster-sidetip.tooltipster-light.tooltipster-bottom .tooltipster-arrow-background, .vue-tooltip-theme.tooltip[x-placement^=bottom] .tooltip-arrow {
 	border-bottom-color: #333;
 	color: #333;
 }
 
-.tooltipster-sidetip.tooltipster-light.tooltipster-right .tooltipster-arrow-background, .block-state-active .block-state-active_tooltip:after, .block-state-active .block-state-active_tooltip:before, .settings-finances__purse-inner-tooltip:before{
+.tooltipster-sidetip.tooltipster-light.tooltipster-right .tooltipster-arrow-background, .block-state-active .block-state-active_tooltip:after, .block-state-active .block-state-active_tooltip:before, .settings-finances__purse-inner-tooltip:before {
 	border-right-color: #333;
 	color: #333;
 }
 
-.tooltipster-sidetip.tooltipster-light.tooltipster-left .tooltipster-arrow-background{
+.tooltipster-sidetip.tooltipster-light.tooltipster-left .tooltipster-arrow-background {
 	border-left-color: #333;
 	color: #333;
 }
 
-.tooltipster-sidetip.tooltipster-light.tooltipster-top .tooltipster-arrow-background, .vue-tooltip-theme.tooltip .tooltip-arrow{
+.tooltipster-sidetip.tooltipster-light.tooltipster-top .tooltipster-arrow-background, .vue-tooltip-theme.tooltip .tooltip-arrow {
 	border-top-color: #333;
 	color: #333;
 }
 
-.button-go-top{
+.button-go-top {
 	background: #fff;
 }
 
-#quick-faq{
+#quick-faq {
 	display: none;
 }
 
-.header .headertop-desktop .dropdownbox--profile{
+.header .headertop-desktop .dropdownbox--profile {
 	background: #222;
 	color: #fff;
 }
 
-.header .headertop-desktop .user-popup a{
+.header .headertop-desktop .user-popup a {
 	color: #eee !important;
 }
 
-.header .headertop-desktop .user-type, .header .headertop-desktop .user-popup-item-logout{
+.header .headertop-desktop .user-type, .header .headertop-desktop .user-popup-item-logout {
 	border-color: #555;
 }
 
-.chosen-style .chosen-container .chosen-single{
+.chosen-style .chosen-container .chosen-single {
 	background: #111 !important;
 	color: #fff !important;
 	border: none !important;
 }
 
-.chosen-style .chosen-container .chosen-single span{
+.chosen-style .chosen-container .chosen-single span, .modal-individual-message__column .chosen-style .chosen-container .chosen-single span {
 	color: #fff !important;
 }
 
-.chosen-style .chosen-container .chosen-results li{
+.chosen-style .chosen-container .chosen-results li {
 	background: #111;
 	color: #ccc !important;
 }
 
-.settings-schedule__body .chosen-style .chosen-container .chosen-single span, .settings-schedule__body .chosen-style .chosen-container .chosen-results li{
+.settings-schedule__body .chosen-style .chosen-container .chosen-single span, .settings-schedule__body .chosen-style .chosen-container .chosen-results li {
 	color: #fff !important;
 }
 
-.chosen-style .chosen-container .chosen-results li.highlighted, .chosen-style .chosen-container .chosen-results li.result-selected{
+.chosen-style .chosen-container .chosen-results li.highlighted, .chosen-style .chosen-container .chosen-results li.result-selected {
 	background: #444;
 	color: #fff !important;
 }
 
-.k-select.v-select .vs__dropdown-toggle{
+.k-select.v-select .vs__dropdown-toggle {
 	background: #111;
 	border: none;
 	color: #fff;
 }
 
-.text-body, .v-select .vs__selected{
+.text-body, .v-select .vs__selected {
 	color: #fff !important;
+}
+
+p a{
+    color: #3b9cff !important;
 }
 }
 
 @-moz-document domain("kwork.ru") {
 /* HEADER */
-
-.sub-menu-parent .menulist{
+.sub-menu-parent .menulist {
 	background: #333;
 	border-color: #111;
 	border-radius: 0 0 10px 10px;
 	border: none;
 }
 
-.header .headertop-desktop .general-search.custom-search input.form-control{
+.header .headertop-desktop .general-search.custom-search input.form-control {
 	background: #111;
 	border: none;
 	color: #fff;
 }
 
-#search-keyword .dropdown, .general-search.custom-search .dropdown{
+#search-keyword .dropdown, .general-search.custom-search .dropdown {
 	background: #222;
 	border-color: #111 !important;
 }
 
-.custom-search .dropdown-suggestions .suggestion span b{
+.custom-search .dropdown-suggestions .suggestion span b {
 	color: #fff;
 }
 
-.custom-search .dropdown-suggestions .suggestion span{
+.custom-search .dropdown-suggestions .suggestion span {
 	color: #aaa;
 }
 
-.custom-search .dropdown-suggestions .suggestions .suggestion-user, .custom-search .dropdown-suggestions .suggestions-header{
+.custom-search .dropdown-suggestions .suggestions .suggestion-user, .custom-search .dropdown-suggestions .suggestions-header {
 	background: #333;
 	color: #aaa;
+}
+
+.subnav ul.sub-menu-parent>li>a:before, .subnav ul.sub-menu-parent>li>span:before{
+    background: #555;
+}
+
+.header .headertop-desktop .user-popup a, .header .headertop-desktop .user-popup span{
+    color: #aaa;
 }
 }
 
 @-moz-document domain("kwork.ru") {
 /* ПРЕДЛОЖИТЬ УСЛУГУ */
-
-.track-page__header{
+.track-page__header {
 	border: none;
 	border-radius: 10px;
 	overflow: hidden;
 	background: #222;
 }
 
-.track-page>.contentArea{
+.track-page > .contentArea {
 	background: transparent !important;
 }
 
-.track-spacer{
+.track-spacer {
 	background: #111;
 }
 
-.waveborder.bottom, .waveborder.top{
+.waveborder.bottom, .waveborder.top {
 	display: none
 }
 
-.track-page__header-image img{
+.track-page__header-image img {
 	border: none;
 }
 
-.track-page__header-h1{
+.track-page__header-h1 {
 	color: #fff;
 }
 
-.pull-left, .order-info__time, .order-info__time--total{
+.pull-left, .order-info__time, .order-info__time--total {
 	color: #ddd;
 }
 
-.mr10{
+.mr10 {
 	filter: invert(0.85);
 }
 
-.order-info__line div{
+.order-info__line div {
 	background: #333;
 }
 
-.order-info thead{
+.order-info thead, .k-modal--default .k-modal-content__header, .track-stage__header {
 	background: #333;
-	border-radius: 10px;
 	color: #ddd;
+}
+
+.k-modal--default .k-modal-content__body, .k-modal--default-img .k-modal-content__body{
+    background: #333;
+    color: #fff;
+}
+
+.k-modal--default .k-modal-content__header-title, .k-modal--default-img .k-modal-content__header-title{
+    color: #fff;
+}
+
+#vs3__listbox *:hover, #vs3__listbox *.active, #vs3__listbox *:focus, #vs3__listbox *.select, #vs3__listbox *.selected{
+    background: #333;
 }
 }
 
 @-moz-document domain("kwork.ru") {
 /* БИРЖА */
-
-.page-projects--new .connects-points__email, .page-projects--new .connects-points__point{
+.want-card {
 	background: #222;
 	color: #fff;
 	border: none;
 	border-radius: 10px;
 }
 
-.page-projects--new .connects-points__item-link{
+.page-projects--new .connects-points__item-link {
 	color: #eee;
 }
 
-.page-projects--new .connects-points__item-text, .page-projects--new .connects-points__item-count{
+.page-projects--new .connects-points__item-text, .page-projects--new .connects-points__item-count, .modal-individual-offer .new-offer__tip-text, .offer-individual--blue .new-offer__tip-text {
 	color: #ccc;
 }
 
-.wants-filter{
+.page-projects .connects-points__email, .page-projects .connects-points__point{
+    background: #222;
+    color: #fff !important;
+    border: none;
+    border-radius: 10px;
+}
+
+.page-projects .connects-points__email *, .page-projects .connects-points__point *{
+    color: #fff;
+}
+
+.wants-filter {
 	background: #222;
 	border-radius: 10px;
 	border-color: transparent;
 	color: #fff;
 }
 
-.projects-filter__radio{
+.projects-filter__radio {
 	color: #ccc;
 }
 
-.twin-radio-switch{
+.twin-radio-switch {
 	background: #111;
 	border: none;
 }
 
-input:checked+.twin-radio-switch__label{
+input:checked + .twin-radio-switch__label {
 	background: #222;
 }
 
-.checkbox-after-label label:before{
+.checkbox-after-label label:before {
 	background: #111;
-	border: none;
+	border-color: #333;
 }
 
-.checkbox-after-label--kw input:checked+label:before{
+.checkbox-after-label--kw input:checked + label:before {
 	background: #177de5;
 }
 
-.projects-filter__item .filter-input{
+.projects-filter__item .filter-input {
 	background: #111;
 	border-radius: 5px;
 	border: none;
 	color: #ccc;
 }
 
-.checkbox-after-label--kw label{
+.checkbox-after-label--kw label {
 	color: #ccc;
 }
 
-.exchange-stats{
+.exchange-stats {
 	background: #222;
 	border-radius: 10px;
 	border: none;
 }
 
-.tooltip_circle--light{
+.tooltip_circle--light {
 	background: #222;
 	border-color: #333;
 }
 
-.tooltip_circle--light.tooltip_circle--hover:hover, .tooltip_circle--light.tooltip_circle_hover{
+.tooltip_circle--light.tooltip_circle--hover:hover, .tooltip_circle--light.tooltip_circle_hover {
 	background: #333 !important;
 	border-color: #444 !important;
 }
 
-.page-projects--new .wants-filter__links{
+.page-projects .wants-filter__links {
 	background: #222;
 	border-radius: 0 10px 10px 0;
 	border: none;
 	overflow: hidden;
 }
 
-.page-projects--new .wants-filter__link{
+.page-projects .wants-filter__link {
 	color: #ccc;
 }
 
-.paging ul li .active{
+.paging ul li .active {
 	border: none;
 	background: #333;
 	border-radius: 10px;
 	color: #fff;
 }
 
-.paging ul li a.next:hover, .paging ul li span.next:hover, .paging ul li a.prev:hover, .paging ul li span.prev:hover{
+.paging ul li a.next:hover, .paging ul li span.next:hover, .paging ul li a.prev:hover, .paging ul li span.prev:hover {
 	border-radius: 10px;
 	background-color: #333;
+}
+
+.modal-individual-offer__switcher{
+    background: #222;
+    color: #fff;
+}
+
+.v-select--default .vs__dropdown-toggle, .chat__chosen-durations.chosen-style .chosen-container .chosen-single, .vs__dropdown-menu{
+    background-color: #111 !important;
+    color: #aaa;
+    border: none !important;
+}
+
+.v-select .vs__dropdown-option{
+    color: #aaa !important;
+}
+
+.v-select--default .vs__dropdown-option--selected, .v-select--default .vs__dropdown-option:hover{
+    background: #464646;
+    color: #177de5;
+}
+
+.modal-individual-message__column label, .modal-individual-offer .offer-category-title, .offer-individual--blue .offer-category-title{
+    color: #bbb;
+}
+
+.checkbox-after-label label:after{
+    filter: invert(1);
+}
+
+.want-archived-header{
+    background: #222;
+    border-radius: 10px;
+    border-color: #333;
+    color: #aaa;
+}
+
+.pagination__item:not(.disabled).active{
+    color: #00ac16;
+}
+}
+
+@-moz-document domain("kwork.ru") {
+/* ЧАТ */
+
+.chat .messages-list .conversation-message-block:not(.conversation-message-block--order-message):hover .conversation-message-item{
+    background: #333 !important;
+}
+
+.chat .messages-list .content-offer-c{
+    background: #444;
+    border: none;
+    color: #fff;
+}
+
+.chat .content-offer-created__title{
+    color: #fff;
+}
+
+.kw-text--16{
+    color: #aaa;
+}
+
+.chat .messages-list .conversation-message-block__order, .chat .messages-list .content-offer-c__header-title, .all_page.page-conversation #app .conversation-messages-list *{
+    color: #fff;
+}
+
+.chat .messages-list .content-offer-c:not(.content-offer-c--reject) .content-offer-c__header{
+    background: #044e98;
+    color: #fff;
+}
+
+.chat .messages-list .content-offer-c .order-info--kwork tr{
+    background: #222;
+}
+
+.chat .conversation-date_separator>div, .chat .conversation-date_separator--order-color-type-3.conversation-date_separator>div, .previous-date__value, .search-nav{
+    background: #444 !important;
+    border: none;
+    color: #fff;
+}
+
+.chat__message-status-wrapper{
+    background: #222;
+}
+
+.chat-wrapper #app .conversation-messages-list .messages-list .conversation-message-block .conversation-message-item.cm-unread {
+    background-color: #535250;
+}
+
+.chat-wrapper #app .conversation-messages-list .messages-list .conversation-message-block .conversation-warning-block, .chat-wrapper #app .conversation-messages-list .messages-list .conversation-message-block .conversation-warning-block *{
+    background: #2f2e2e;
+}
+
+.kw-title--12, .message-quote__text{
+    color: #fff;
+}
+
+.chat-wrapper #app .conversation-messages-list .messages-list .conversation-message-block .body-c .main-c .content-c .cm-offer-quote{
+    background: #222;
+    border-radius: 5px;
+    border-color: #444;
+}
+
+.file-uploader .file-list-carousel{
+    background: #222;
+}
+
+.chat .messages-list .content-offer-c__footer{
+    background: #333;
 }
 }
 
 @-moz-document domain("kwork.ru") {
 /* ЗАКАЗЫ */
-
-div.orders *{
+div.orders * {
 	border-color: transparent !important;
 }
 
-.order-list-table .table-style thead td, .order-list-table .table-style thead th{
-	background: #222;
+.order-list-table .table-style thead td, .order-list-table .table-style thead th {
+	background: #222 !important;
 }
 
-.order-list-table .table-style tbody tr.m-hidden td{
-	background: #222;
+.order-list-table .table-style tbody tr.m-hidden td, .order-list-table .table-style tbody tr td {
+	background: #222 !important;
+    color: #fff;
 }
 
-.order-list-table .table-style{
+.order-list-table .table-style {
 	border-radius: 10px;
 	overflow: hidden;
 }
 
-.order-list-table .table-style tbody tr.m-hidden td .user-name, .order-list-table .table-style tbody tr.m-hidden td{
+.order-list-table .table-style tbody tr.m-hidden td .user-name, .order-list-table .table-style tbody tr.m-hidden td {
 	color: #ccc;
 }
 
-.order-list-table tbody tr:hover>td{
+.order-list-table tbody tr:hover > td {
 	background: #333 !important;
 }
 
-.kw-note-tooltip.tooltipster-sidetip.tooltipster-light .tooltipster-content{
+.kw-note-tooltip.tooltipster-sidetip.tooltipster-light .tooltipster-content {
 	color: #ccc;
 }
 
-.k-modal-content__header, .k-modal-content__body, .k-modal-content__footer{
+.k-modal-content__header, .k-modal-content__body, .k-modal-content__footer {
 	background: #111;
 }
 
-.note-modal .trumbowyg-box .trumbowyg-editor{
+.note-modal .trumbowyg-box .trumbowyg-editor {
 	background: #222;
 	color: #ccc !important;
 }
 
-.kw-button--gray-border:not(.kw-button--inactive):not(.kw-button--waiting){
-	background: #333;
+.kw-button--gray-border:not(.kw-button--inactive):not(.kw-button--waiting) {
+	background: #222;
 	color: #ccc;
+    border-color: #444;
 }
 
-.kw-button--gray-border:not(.kw-button--inactive):not(.kw-button--waiting):hover{
+.kw-button--gray-border:not(.kw-button--inactive):not(.kw-button--waiting):hover {
 	background: #444;
 	color: #fff;
 }
 
-.kw-button--green:not(.kw-button--inactive):not(.kw-button--waiting):hover{
-    background-color: #058309;
+.kw-button--green:not(.kw-button--inactive):not(.kw-button--waiting):hover {
+	background-color: #058309;
 }
 
-.search-field--orders .search-field__input{
+.search-field--orders .search-field__input {
 	border-radius: 8px;
 	background: #222;
 	border: none;
 	color: #fff;
 }
 
-.order-tabs__item-count{
+.order-tabs__item-count {
 	background: #333;
 	color: #ccc;
 }
 
-.order-tabs:before{
+.order-tabs:before {
 	background: #555;
+}
+
+.table-style .portfolio-statistics-desc-title, .table-style a:not(.kw-button){
+    color: #fff !important;
 }
 }
 
 @-moz-document domain("kwork.ru") {
 /* ЗАКАЗ */
-
-.file-list__item--not-image{
+.file-list__item--not-image {
 	background: #111;
 	border-radius: 10px;
 	border: none;
 }
 
-.file-list__item .finfo .fname{
+.file-list__item .finfo .fname {
 	color: #ccc;
 }
 
-.file-list-image__container, .file-list-image__wrapper{
+.file-list-image__container, .file-list-image__wrapper {
 	background: #111;
 	border: none;
 }
 
-.t-profile-link{
+.t-profile-link {
 	color: #fff !important;
 }
 
-.track-page__date-hr:before, .track-page__date-hr span{
+.track-page__date-hr:before, .track-page__date-hr span {
 	background: #333;
 	border: none;
 	color: #;
 }
 
-.request-not-correspond{
+.request-not-correspond, .track-loyality-wrapper {
 	background: #111;
 	border: none;
 	border-radius: 10px;
 }
 
-.request-not-correspond__table-cell{
+.track--item:hover .request-not-correspond{
+	background: #111;
+}
+
+.request-not-correspond__table-cell {
 	background: #111;
 	border-color: #444;
 }
 
-.dot-user-offline{
-	background: #000;
+.dot-user-offline {
+	background: #666;
 }
 
-.track-sidebar__item{
+.track-sidebar__item {
 	background: #222;
 	border-radius: 10px;
 	border: none;
 }
 
-.track-sidebar__item.open .track-sidebar__item-title{
+.track-sidebar__item.open .track-sidebar__item-title {
 	border-radius: 10px 10px 0 0;
 }
 
-.track-sidebar__files .order-files-aside, .track--questions{
+.track-sidebar__files .order-files-aside, .track--questions {
 	background: #222;
 	border: none;
 	border-radius: 0 0 10px 10px;
 }
 
-.order-files .order-files-link:not(:last-child):after, .track--questions__item{
+.order-files .order-files-link:not(:last-child):after, .track--questions__item {
 	border-color: #444;
 }
 
-.track--questions__item{
+.track--questions__item {
 	color: #ccc;
 }
 
-.track-sidebar__head, .track-sidebar__item-title, .note--order .note__content{
+.track-sidebar__head, .track-sidebar__item-title, .note--order .note__content {
 	background: #222;
 	border-radius: 10px;
 	border: none;
 }
 
-.track--info__user-link{
+.track--info__user-link {
 	color: #fff;
 }
 
-.badge--green span{
+.badge--green span {
 	color: #000;
 }
 
-.track--info__user, .track--progress{
+.track--info__user, .track--progress {
 	border-color: #111;
 }
 
-.trumbowyg-style--textarea .trumbowyg-box .trumbowyg-editor{
-	background: #111;
+.trumbowyg-style--textarea .trumbowyg-box .trumbowyg-editor {
+	background: #111 !important;
 	color: #ccc !important;
-	border: none;
+	border: none !important;
 }
 
-.track-item .tr-track .text_message .cm-offer-quote{
+.trumbowyg-style.trumbowyg-style--error .trumbowyg-field__error-highlighting-wrapper, .trumbowyg-style.trumbowyg-style--error .trumbowyg-field__error-highlighting-wrapper.focused{
+    border-color: #f44;
+}
+
+.track-item .tr-track .text_message .cm-offer-quote {
 	background: #111;
 	border: none;
 	border-radius: 10px;
 }
 
-.progress-line--item__icon:before{
+.progress-line--item__icon:before {
 	filter: invert(1);
 }
 
-.track--item__sidebar-image{
-    background-color: #00341d;
+.track--item__sidebar-image {
+	background-color: #00341d;
 }
 
-.track--item__user .track-item:last-of-type:after{
+.track--item__user .track-item:last-of-type:after {
 	border-color: #444;
 }
 
-.mf-form .mf-comment-box:not(.is-review){
+.mf-form .mf-comment-box:not(.is-review) {
 	border-radius: 0 0 10px 10px;
 	background: #222;
 	border-color: #444 !important;
 }
 
-.sortable-card-list .draggable-block .clickable .image{
+.sortable-card-list .draggable-block .clickable .image {
 	background: #111;
 	border: none;
 	border-radius: 10px;
+}
+
+.track-item .tr-track .step-block-order_item.has-operations:hover{
+	background: #333;
+}
+
+.emoji-btn__switch-panel{
+	filter: invert(0.8);
+}
+
+.track-page .mf-comment-box.is-message #suggestExtras .button-suggest-row .suggest-extras-wrapper>span{
+	filter: invert(0);
+}
+
+.track-item .tr-track.compact-mode .additional-track .track--item{
+	background: #333 !important;
+	padding-bottom: 20px;
+}
+
+.track--item-border .track--item__main{
+	background: #333;
+	border-color: #111;
+}
+
+.track--item-border .track--item__information-login, .track--item-border .track--item__title h3{
+	color: #fff;
+}
+
+.track--item-border .track--item__information-text{
+	color: #ddd;
+}
+
+.order-timer__digit-back-bottom, .order-timer__digit-back:after, .order-timer__digit-back:before, .order-timer__digit-bottom, .order-timer__digit-top{
+	background: #333;
+}
+
+.order-timer__title{
+	color: #fff;
+}
+
+.badge--blue{
+	background: #005aaf;
+}
+
+.order-timer--in-sidebar{
+	border-color: #111;
+}
+
+.progress-line--item__icon{
+	background: #444;
+	border-color: #666;
+}
+
+.progress-line--item.line-white-gray{
+	border-color: #666;
+}
+
+.track-page .message-head_wrap .message-icons{
+	background: #333;
+	border-color: #444;
+	box-shadow: none;
+}
+
+.track-page .mf-form .mf-message-row .mf-message-input .mf-message .trumbowyg-editor, .mf-form .mf-message-row .mf-message-input .mf-message .trumbowyg-box, .mf-form .mf-message-row .mf-message-input .mf-message_with-emoji, .mf-form .mf-message-row .mf-message-input *{
+	color: #fff;
+}
+
+.track-page .mf-form #newextrachecks, div.options.js-suggest-block > div{
+	background: #333 !important;
+	border: 1px solid #333 !important;
+	border-radius: 5px;
+}
+
+.track-page .mf-comment-box.is-message #suggestExtras .suggest-blocks>.options .extrasping-settings .textthree{
+	background: #111;
+	border: none;
+	color: #fff;
+}
+
+ul.order-extras-list.order-extras-list-bottom>li{
+	border-color: #222;
+}
+
+.inprogress-confirm .k-modal-content__header-title{
+	color: #fff;
+}
+
+.kwork-list_type-2 .kwork-list__item{
+	color: #aaa;
+}
+
+.track-page__check-action{
+	background: #333;
+}
+
+.track-page__check-action-text{
+	color: #aaa;
+}
+
+.track--info .badge>span{
+	color: #fff;
+}
+
+.track-page__check-action-text span{
+	display: block;
+	margin-top: 5px;
+}
+
+#track-form .step-block-order_item{
+    border: none;
+    border-top: 1px solid #444;
+    background: #222;
+    border-radius: 0 0px 10px 10px;
+    padding: 15px 20px;
+}
+
+.green-btn{
+    background: #1a8626;
+    border-radius: 5px;
+    padding: 5px 15px;
+    transition: .2s;
+}
+
+.green-btn:hover{
+    background: #19b02a !important;
+    transition: .2s;
+}
+
+.orange-btn{
+    background: #ffa000;
+    color: #422900;
+    font-weight: 600;
+    border-radius: 5px;
+    padding: 5px 15px !important;
+    transition: .2s;
+}
+
+.orange-btn:hover{
+    background: #ca7f00 !important;
+    color: #422900;
+    font-weight: 600;
+    border-radius: 5px;
+    padding: 5px 15px !important;
+    transition: .2s;
+}
+
+
+.green-btn.inactive{
+    background: #555;
+    border-radius: 5px;
+    color: #fff;
+    border: none;
+    padding: 5px 15px;
+}
+.green-btn.inactive:hover{
+    background: #666 !important;
+    transition: .2s;
+}
+
+
+.block-inwork-info{
+margin: 0;
+}
+
+
+.track-loyality-title .mr10{
+    filter: none;
+}
+
+.track-stage__number{
+    color: #ccc;
+}
+
+.track-stage__name, .track-stage__price{
+    color: #fff;
 }
 }
 
 @-moz-document domain("kwork.ru") {
 /* РАБОТЫ */
-
-.form-item--bordered{
+.form-item--bordered {
 	background: #222;
 	border: none;
 	border-radius: 10px;
 }
 
-.form-item label.form-item__label--size-16, .form-item__label.form-item__label--size-16{
+.form-item label.form-item__label--size-16, .form-item__label.form-item__label--size-16 {
 	color: #fff;
 }
 
-.input-style, .textarea-style{
+.input-style, .textarea-style {
 	background: #111;
 	border: none;
 	color: #fff;
 }
 
-.portfolio-upload-modal__info-panel{
+.portfolio-upload-modal__info-panel {
 	background: #111;
 	color: #cccc;
 }
 
-.portfolio-cover .portfolio-upload-modal__upload-image, .sortable-card-list--is-cross .portfolio-upload-modal__upload-image{
+.portfolio-cover .portfolio-upload-modal__upload-image, .sortable-card-list--is-cross .portfolio-upload-modal__upload-image {
 	background: #111;
 	border: none;
-	padding: 
+	padding:
 }
 
-.portfolio-upload-modal .form-item--portfolio-cover, .portfolio-upload-modal .form-item--portfolio-videos{
+.portfolio-upload-modal .form-item--portfolio-cover, .portfolio-upload-modal .form-item--portfolio-videos {
 	padding-bottom: 12px;
 }
 
-.portfolio-upload-modal .portfolio-cover .cover-upload-mini{
+.portfolio-upload-modal .portfolio-cover .cover-upload-mini {
 	background: #111;
 	border: none;
 	border-radius: 10px;
@@ -627,85 +955,113 @@ div.orders *{
 
 @-moz-document domain("kwork.ru") {
 /* ПРОДАВЕЦ */
-
-.dashboard__block{
+.dashboard__block {
 	background: #222;
 	border: none;
 	border-radius: 10px;
 }
 
-.kw-header--h4, .kw-header--h5, .dashboard__user-card-name, .color-text{
+.kw-header--h4, .kw-header--h5, .dashboard__user-card-name, .color-text {
 	color: #fff;
 }
 
-.dashboard__user-card-stats-title, .kw-progress-bar__value, .dashboard__steps-list-stats{
+.dashboard__user-card-stats-title, .kw-progress-bar__value, .dashboard__steps-list-stats {
 	color: #aaa;
 }
 
-.dashboard__user-card-stats, .table-style td, .dashboard__chat-header{
+.dashboard__user-card-stats, .table-style td, .dashboard__chat-header {
 	border-color: #444;
 }
 
-.table-style thead{
+.table-style thead {
 	background: #333;
 	border: none;
 	color: #fff;
 }
 
-.kw-progress-bar__chart:before{
+.kw-progress-bar__chart:before {
 	background: #111;
 	border: none;
 }
 
-.chat__list-user{
+.chat__list-user {
 	color: #ccc;
 }
 
-.chat__list-message{
+.chat__list-message {
 	color: #aaa;
 }
 
-.chat__list-item:hover{
+.chat__list-item:hover {
 	background: #333;
+}
+
+.user-skills__item{
+    background: #222;
+    border-color: #5555;
+    color: #aaa;
+    padding: 12px 15px;
+    line-height: 0.5;
+    margin: 0 3px 3px 0;
+}
+
+ul.gig-reviews-list li span.comment-meta .auto-review, ul.gig-reviews-list li span.comment-meta a{
+    color: #fff;
+}
+
+ul.gig-reviews-list>li{
+    border-color: #333;
+}
+
+.reviews-header-help__title span{
+    color: #eee;
+}
+
+.reviews-header-help__list li{
+    color: #aaa;
+}
+
+.dashboard__kworks-lang{
+    background: #111;
+    color: #fff;
 }
 }
 
 @-moz-document domain("kwork.ru") {
 /* ПОЛЬЗОВАТЕЛЬ */
-
-.user-page-head, .bgLightGray, .bodybg{
+.user-page-head, .bgLightGray, .bodybg {
 	background: #111;
 }
 
-.user-col-container{
+.user-col-container {
 	background: #333 !important;
 	border: none;
 	border-radius: 10px;
 }
 
-.user-col-container .user-col.user-col-right{
+.user-col-container .user-col.user-col-right {
 	background: #333;
 	border-radius: 0 10px 10px 0;
 	border-color: #555;
 }
 
-.user-col-container .user-profession, .user-col-container .user-info{
+.user-col-container .user-profession, .user-col-container .user-info {
 	color: #fff;
 }
 
-.user-col-container .user-avatar-container{
+.user-col-container .user-avatar-container {
 	background: #111;
 	border: none;
 	border-radius: 10px;
 }
 
-.user-col-container .user-avatar-image{
+.user-col-container .user-avatar-image {
 	border-radius: 5px;
 	border: none;
 	overflow: hidden;
 }
 
-.portfolio-card-collage.portfolio-card-collage--add, .portfolio-card-collage-wrap .portfolio-card-collage{
+.portfolio-card-collage.portfolio-card-collage--add, .portfolio-card-collage-wrap .portfolio-card-collage {
 	background: #333;
 	border-color: #333;
 	border-radius: 10px;
@@ -715,149 +1071,390 @@ div.orders *{
 
 @-moz-document domain("kwork.ru") {
 /* СООБЩЕНИЯ */
-
-.chat{
+.chat {
 	border-radius: 10px;
 	border: none;
 	overflow: hidden;
 	background: #222;
 }
 
-.chat .kwork-conversation__list{
+.chat .kwork-conversation__list {
 	background: #222;
 }
 
-.chat__conversation-empty img{
+.chat__conversation-empty img {
 	filter: invert(1);
 }
 
-.chat__search, .chat__conversation-wrapper, .kwork-conversation__header{
+.chat__search, .chat__conversation-wrapper, .kwork-conversation__header {
 	background: #222;
 	border-color: #444;
 }
 
-.kwork-conversation__header-title-link .bold, .kwork-conversation__header-title-link.bold{
+.kwork-conversation__header-title-link .bold, .kwork-conversation__header-title-link.bold {
 	color: #fff !important;
 }
 
-.chat__list-item_active{
+.chat__list-item_active {
 	background: #111 !important;
 }
 
-.chat__sound-icon svg path[fill="#fff"], .kwork-conversation__header-menu-icon path[fill="#fff"]{
+.chat__sound-icon svg path[fill="#fff"], .kwork-conversation__header-menu-icon path[fill="#fff"] {
 	display: none;
 }
 
-.chat__search-inner{
+.chat__search-inner {
 	background: #111;
 	border-color: #444;
 }
 
-.chat__search_focused .chat__search-input{
+.chat__search_focused .chat__search-input {
 	color: #ccc;
 }
 
-.mf-form .mf-message-row .mf-message-input{
+.mf-form .mf-message-row .mf-message-input {
 	background: #333;
 	border: none;
 }
 
-.chat .mf-form .mf-message-row .mf-message-input .mf-message .trumbowyg-editor{
+.chat .mf-form .mf-message-row .mf-message-input .mf-message .trumbowyg-editor {
 	color: #fff !important;
 }
 
-.chat .messages-list .content-offer-c--accept{
+.chat .messages-list .content-offer-c--accept {
 	background: #04b70a22;
 	color: #ccc;
 }
 
-.kwork-user-status{
+.kwork-user-status {
 	border-color: #222;
 }
 
-.kwork-conversation__header-menu-btn:hover{
+.kwork-conversation__header-menu-btn:hover {
 	background-color: #111;
 }
 
-.kwork-conversation__header-menu{
+.kwork-conversation__header-menu {
 	background: #333;
 	border-radius: 10px;
 	overflow: hidden;
 }
 
-.kwork-conversation__header-menu-item:not(.kwork-conversation__header-menu-item-note):hover{
+.kwork-conversation__header-menu-item:not(.kwork-conversation__header-menu-item-note):hover {
 	background: #444;
 }
-
-
-
-
-
-
-
-
-
-
 }
 
 @-moz-document domain("kwork.ru") {
 /* НАСТРОЙКИ */
-
-.settings-block{
+.settings-block {
 	background: #222;
 	border-radius: 10px;
 	border-color: transparent;
 }
 
-.form-item label{
+.form-item label {
 	color: #fff;
 }
 
-.phone-setting-block__field{
+.phone-setting-block__field {
 	background: #111;
 	border: none;
 	color: #555;
 }
 
-.trumbowyg-style--input .trumbowyg-box{
+.trumbowyg-style--input .trumbowyg-box {
 	background: #111;
 	border: none !important;
 	color: #fff;
 }
 
-.trumbowyg-style .trumbowyg-box .trumbowyg-editor, .form-item label, .form-item__label{
+.trumbowyg-style .trumbowyg-box .trumbowyg-editor, .form-item label, .form-item__label {
+    background: #111 !important;
 	color: #fff !important;
+    border: none !important;
 }
 
-.settings-tabs__item, .settings-finances__purse-label{
+.settings-tabs__item, .settings-finances__purse-label {
 	color: #ccc;
 }
-
-
 }
 
 @-moz-document domain("kwork.ru") {
 /* FOOTER */
-
-.footer__menu-title{
+.footer__menu-title {
 	color: #fff;
 }
 
-.footer__menu-links>a{
+.footer__menu-links > a {
 	color: #aaa;
 }
 
-.footer__logo:before{
+.footer__logo:before {
 	content: '';
 	display: block;
 	width: 120px;
 	height: 22px;
 	background: url(https://cdn-edge.kwork.ru/images/header/logo-dark.svg?ver=2);
 	background-origin: contain;
-    background-repeat: no-repeat;
+	background-repeat: no-repeat;
 }
 
-.footer__logo-image{
+.footer__logo-image {
 	display: none;
 }
+
+.footer, .footer__bottom{
+	border-color: #333;
+}
+
+.footer__apps-button img{
+	filter: brightness(0.4);
+}
+
+.settings-finances--ru .settings-finances__content--top-border{
+    background: #222;
+    color: #fff !important;
+    border: none;
+    border-radius: 10px;
+}
+
+.settings-finances--ru .settings-finances__content--top-border *{
+    color: #fff;
+}
+
+.settings-skills__item{
+    background: #111;
+    color: #fff !important;
+    border-color: #333;
+}
+
+.settings-skills__item:hover{
+    background: #111;
+}
+
+.settings-skills__item-name{
+    color: #aaa;
+}
+
+.settings-skills__item-actions{
+    background: #111;
+}
+
+.settings-skills__item-actions:before{
+    background: linear-gradient(270deg,#111,hsla(0,0%,100%,0));
+}
+}
+
+@-moz-document domain("kwork.ru") {
+/* БАЛАНС */
+
+.balance-info-block{
+    border-radius: 10px;
+    background: #222;
+    border: none;
+}
+
+.funds{
+    font-weight: 700;
+}
+
+.btn-group{
+    display: flex;
+    gap: 10px;
+}
+
+.btn-group>:first-child, .btn-group>:last-child{
+    border: none !important;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.balance-info-block>div{
+    display: flex;
+    gap: 10px;
+    padding: 0 1px;
+}
+
+.balance-info-block__summ{
+    margin: 0;
+}
+
+.filter-balance__form{
+    background: #222;
+    border: none;
+    border-radius: 10px;
+}
+
+.white-btn{
+    background: #444;
+    color: #fff;
+    transition: .2s;
+}
+
+.white-btn:hover{
+    background: #555;
+    transition: .2s;
+}
+
+.withdraw-block__comission-desc{
+    color: #999;
+}
+.btn-title.btn-title_green{
+    background: #4e7f11;
+}
+
+.btn-title.btn-title_pink {
+    background: #a3130d;
+}
+}
+
+@-moz-document domain("kwork.ru") {
+/* КВОРКИ */
+
+.kwork-list-cards .kwork-card-item, .kwork-list-cards .kwork-card-search{
+    border-color: #444;
+}
+
+.kwork-card-item{
+    background: #222;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+}
+
+.kwork-card-item__left, .kwork-card-item .kwork-card-item__userdata{
+    border-color: #333;
+}
+
+.multiline-faded:after, .kwork-card-item .kwork-card-item__info-price:before, .kwork-card-item__rating:before, .oneline-faded:after{
+    background: linear-gradient(90deg,hsla(0,0%,100%,0) 0,#222 70%,#222);
+}
+
+.kwork-card-item .kwork-card-item__info-price, .kwork-card-item__rating{
+    background: #222;
+}
+
+.kwork-card-item .kwork-card-item__username a{
+    color: #aaa;
+}
+
+.kwork-card-item__user-level{
+    color: #0eb414;
+}
+
+.manage-kworks__settings .worker-status-title, .checkbox-after-label label{
+    color: #fff;
+}
+
+.b-tab .b-tab_item_number{
+    background: #333;
+    color: #fff;
+    border-color: #444;
+}
+
+.kwork-card-item .price-group .price-th{
+    color: #aaa;
+}
+
+.kwork-card-item__badge-inner{
+    background: none;
+}
+
+.fox-express{
+    background: #0b39a1;
+}
+
+.kworks-filter{
+    background: #222;
+    border: none;
+    border-radius: 10px;
+}
+
+a.link-color-black, .allmusic ul li a, .kworks-filter .unembedded-filter a, .kworks-filter label a, .kworks-filter label a:hover{
+    color: #aaa;
+}
+
+.kworks-filter hr{
+    background: #444;
+}
+
+.custom-select-wrapper_theme_left-filter .custom-select_theme_multiple .custom-select__list-checkbox{
+    background: #222;
+}
+
+.categories-header-steps__slider-item{
+    background: #222;
+    border-color: #333;
+    color: #fff !important;
+}
+
+.categories-header-steps__slider-item-text{
+    color: #ccc;
+}
+
+.categories-header-steps__slider-item-icon{
+    filter: invert(1);
+}
+
+.custom-switcher__header, .custom-switcher__header-title{
+    color: #888;
+}
+
+.subcategories-list__subtitle a, .subcategories-list__title, .subcategories-list__subtitle, .subcategories-list__subtitle a{
+    color: #eee;
+}
+
+.subcategories-list__link{
+    color: #ccc;
+}
+
+.cat-header-tags__item{
+    background: #333;
+    border-color: #444;
+    color: #fff;
+}
+}
+
+@-moz-document domain("kwork.ru") {
+/* АНАЛИТИКА */
+
+.stats{
+    background: #222;
+    border-radius: 10px;
+    border: none;
+}
+
+.stats__header-title{
+    color: #fff;
+}
+
+.stats *, .stats__analytics.total{
+    border-color: #444;
+}
+
+.stats__footer{
+    color: #aaa;
+}
+
+.stats__total{
+    background: #444;
+    border-radius: 10px;
+    color: #aaa;
+}
+
+.stats__progress-graph{
+    background: #444;
+    border-radius: 5px;
+}
+
+.chart-donut-values__item{
+    color: #aaa;
+}
+
+.donut-chart-title-name, .donut-chart-title-percent{
+    fill: #aaa;
+}
+
 }
